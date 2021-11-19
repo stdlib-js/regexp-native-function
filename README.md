@@ -20,7 +20,7 @@ limitations under the License.
 
 # Native Function
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > [Regular expression][regexp] to match a native function.
 
@@ -110,8 +110,8 @@ bool = isNativeFunction( function noop() {} );
 
 ## See Also
 
--   [`@stdlib/regexp/function-name`][@stdlib/regexp/function-name]: return a regular expression to capture a function name.
--   [`@stdlib/utils/function-name`][@stdlib/utils/function-name]: determine a function's name.
+-   <span class="package-name">[`@stdlib/regexp/function-name`][@stdlib/regexp/function-name]</span><span class="delimiter">: </span><span class="description">return a regular expression to capture a function name.</span>
+-   <span class="package-name">[`@stdlib/utils/function-name`][@stdlib/utils/function-name]</span><span class="delimiter">: </span><span class="description">determine a function's name.</span>
 
 </section>
 
@@ -162,8 +162,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/regexp-native-function/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/regexp-native-function?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/regexp-native-function.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/regexp-native-function/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
