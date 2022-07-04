@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.reNativeFunction;
+})();
 })();
 </script>
 ```
@@ -97,6 +99,7 @@ var bool = reNativeFunction.REGEXP.test( Date.toString() );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-native-function@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var RE_NATIVE_FUNCTION = reNativeFunction();
 function isNativeFunction( fcn ) {
@@ -118,6 +121,7 @@ bool = isNativeFunction( Date );
 bool = isNativeFunction( function noop() {} );
 // returns false
 
+})();
 })();
 </script>
 </body>
@@ -216,9 +220,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/regexp/function-name]: https://github.com/stdlib-js/regexp-function-name/tree/umd
+[@stdlib/regexp/function-name]: https://github.com/stdlib-js/regexp-function-name/tree/umd/tree/umd
 
-[@stdlib/utils/function-name]: https://github.com/stdlib-js/utils-function-name/tree/umd
+[@stdlib/utils/function-name]: https://github.com/stdlib-js/utils-function-name/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
