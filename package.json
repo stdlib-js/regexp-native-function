@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/regexp-native-function",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Return a regular expression to match a native function.",
   "license": "Apache-2.0",
   "author": {
