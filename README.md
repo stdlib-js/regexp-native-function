@@ -118,8 +118,8 @@ bool = isNativeFunction( function noop() {} );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/regexp/function-name`][@stdlib/regexp/function-name]</span><span class="delimiter">: </span><span class="description">return a regular expression to capture a function name.</span>
--   <span class="package-name">[`@stdlib/utils/function-name`][@stdlib/utils/function-name]</span><span class="delimiter">: </span><span class="description">determine a function's name.</span>
+-   <span class="package-name">[`@stdlib/regexp-function-name`][@stdlib/regexp/function-name]</span><span class="delimiter">: </span><span class="description">return a regular expression to capture a function name.</span>
+-   <span class="package-name">[`@stdlib/utils-function-name`][@stdlib/utils/function-name]</span><span class="delimiter">: </span><span class="description">determine a function's name.</span>
 
 </section>
 
