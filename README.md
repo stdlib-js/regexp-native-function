@@ -24,38 +24,30 @@ limitations under the License.
 
 > [Regular expression][regexp] to match a native function.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/regexp-native-function
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-reNativeFunction = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-native-function@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var reNativeFunction = require( 'path/to/vendor/umd/regexp-native-function/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-native-function@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.reNativeFunction;
-})();
-</script>
+var reNativeFunction = require( '@stdlib/regexp-native-function' );
 ```
 
 #### reNativeFunction()
@@ -89,14 +81,9 @@ var bool = reNativeFunction.REGEXP.test( Date.toString() );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-int8@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-native-function@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var Int8Array = require( '@stdlib/array-int8' );
+var reNativeFunction = require( '@stdlib/regexp-native-function' );
 
 var RE_NATIVE_FUNCTION = reNativeFunction();
 function isNativeFunction( fcn ) {
@@ -117,11 +104,6 @@ bool = isNativeFunction( Date );
 
 bool = isNativeFunction( function noop() {} );
 // returns false
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -196,7 +178,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -216,9 +198,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/regexp/function-name]: https://github.com/stdlib-js/regexp-function-name/tree/umd
+[@stdlib/regexp/function-name]: https://github.com/stdlib-js/regexp-function-name
 
-[@stdlib/utils/function-name]: https://github.com/stdlib-js/utils-function-name/tree/umd
+[@stdlib/utils/function-name]: https://github.com/stdlib-js/utils-function-name
 
 <!-- </related-links> -->
 
