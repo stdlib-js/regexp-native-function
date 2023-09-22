@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/regexp-native-function",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "Return a regular expression to match a native function.",
   "license": "Apache-2.0",
   "author": {
@@ -37,9 +37,9 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/function-ctor": "^0.0.2",
-    "@stdlib/function-to-string": "^0.0.1",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.7"
+    "@stdlib/function-ctor": "^0.1.0",
+    "@stdlib/function-to-string": "^0.1.0",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.0"
   },
   "devDependencies": {
     "@stdlib/array-int8": "^0.0.6",
@@ -47,7 +47,7 @@
     "@stdlib/assert-is-regexp": "^0.0.7",
     "@stdlib/bench": "^0.0.12",
     "@stdlib/boolean-ctor": "^0.0.1",
-    "@stdlib/number-ctor": "^0.0.7",
+    "@stdlib/number-ctor": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
