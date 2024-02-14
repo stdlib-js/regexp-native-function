@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import reNativeFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-native-function@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/regexp-native-function/tags). For example,
+
+```javascript
 import reNativeFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-native-function@v0.2.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-native-function@v0.2.0-deno/mod.js';
+import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-native-function@deno/mod.js';
 ```
 
 #### reNativeFunction()
@@ -84,7 +89,7 @@ var bool = reNativeFunction.REGEXP.test( Date.toString() );
 
 ```javascript
 import Int8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int8@deno/mod.js';
-import reNativeFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-native-function@v0.2.0-deno/mod.js';
+import reNativeFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-native-function@deno/mod.js';
 
 var RE_NATIVE_FUNCTION = reNativeFunction();
 function isNativeFunction( fcn ) {
