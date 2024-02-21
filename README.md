@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+reNativeFunction = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-native-function@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/regexp-native-function/tags). For example,
+
+```javascript
 reNativeFunction = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-native-function@v0.2.1-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var reNativeFunction = require( 'path/to/vendor/umd/regexp-native-function/index
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-native-function@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-native-function@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -105,7 +110,7 @@ var bool = reNativeFunction.REGEXP.test( Date.toString() );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-int8@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-native-function@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-native-function@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
