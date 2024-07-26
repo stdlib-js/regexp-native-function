@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import reNativeFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-native-function@esm/index.mjs';
+import reNativeFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-native-function@v0.2.2-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-native-function@esm/index.mjs';
+import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-native-function@v0.2.2-esm/index.mjs';
 ```
 
 #### reNativeFunction()
@@ -89,7 +89,7 @@ var bool = reNativeFunction.REGEXP.test( Date.toString() );
 <script type="module">
 
 import Int8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int8@esm/index.mjs';
-import reNativeFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-native-function@esm/index.mjs';
+import reNativeFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-native-function@v0.2.2-esm/index.mjs';
 
 var RE_NATIVE_FUNCTION = reNativeFunction();
 function isNativeFunction( fcn ) {
